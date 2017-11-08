@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.develop {
+	border: 1px solid #bababa;
+}
+#cso-admin-body {
+
+}
+#cso-admin-header {
+	font-size: 24px;
+	font-weight: bold;
+	background: #082A4D;
+	color: #FCFCFC;
+}
+
+#search_suggestion{
+	margin: 0px 0px 0px 130px;
+	padding:0px;
+	border:0;
+	width:250px;
+	text-align:left;
+	background-color:#FFF;
+	color:#000000;
+	position:absolute;
+	z-index:9999;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#search_suggestion li{
+	padding:0px 0px;
+	list-style:none;
+	width:100%;
+	border: 1px #000;	
+	cursor:pointer;
+	font:medium normal;
+}
+
+#search_suggestion li:hover{
+	background-color:#99CCFF;
+}
+
+.hovered{
+	background-color:#99CCFF;
+}
+

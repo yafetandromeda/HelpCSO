@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ticket_row {
+	cursor:pointer;
+}
+.detail_ticket_row {
+	margin: 10px 3px;
+	display: block;
+}
+.detail_ticket_field{
+	display: inline-block;
+	width: 30%;
+	font-weight: bold;
+	vertical-align:top;
+}
+.detail_ticket_value {
+	display: inline-block;
+	width: 68%;
+	vertical-align:top;
+}

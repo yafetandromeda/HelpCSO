@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('../fonts/OpenSans-Bold-webfont.eot');
+    src: url('../fonts/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+	font-family: open_sans, Arial;
+}
+#body_login {
+	background-color: #EAEAEA;
+}
+
+#cso-form-login {
+	box-shadow: 0 0 12px 1px #707070;
+	margin-top: 8%;
+	padding: 8% 0px;
+	background-color: #FFFFFF;
+}
+.cso-form-label {
+	text-align:left;
+}
+.cso-form-label-horizontal {
+	text-align:left;
+	display: inline-block;
+}
+.cso-form-row {
+	width: 30%;
+}
+.cso-form-input {
+	text-align: left;	
+	width: 100%;
+}
+.cso-form-input-horizontal {
+	text-align: left;	
+	width: 100%;
+}
+#cso-cso-header {
+	padding: 20px;
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-weight: bold;
+}
+#announcement {
+	max-height: 350px;
+	overflow-y: scroll;
+}
+.cso-announcement-creator {
+	font-size: 0.7em;
+	color: #4B98BC;
+	text-align:right;
+}
+#cso-script-question {
+	font-weight: bold;
+}
+.suggestion_item {
+	border: 1px solid #696969;
+	padding: 10px;
+	background: #FFFFFF;
+	color: #000;
+}
+.suggestion_item:hover {
+	background: #EFEFEF;
+}
+#asteriskNote {
+	padding-bottom: 1em;
+}
+#div_category {
+	margin: 5px 0px;
+}
+#form_search_script label {
+	display: inline-block;
+	width: 100px;
+}
+/* ticket */
+.cso-detail-ticket-item {
+	padding: 0px 0px 5px 0px;
+}
+.cso-detail-ticket-field {
+	font-weight: bold;
+	width: 35%;
+	display: inline-block;
+}
+.cso-detail-ticket-content {
+	width: 62%;
+	display: inline-block;
+}

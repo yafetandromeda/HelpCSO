@@ -1,0 +1,13 @@
+
+		
+			select SQL_CALC_FOUND_ROWS interaction_id, interaction_type_name, priority_name, status_name, customer_name, customer_phone, customer_email, creator_datetime
+			from helpcso_interaction
+			left join helpcso_interaction_type 
+			on helpcso_interaction.interaction_type_id = helpcso_interaction_type.interaction_type_id
+			left join helpcso_status
+			on helpcso_interaction.interaction_status_id = helpcso_status.status_id
+			left join helpcso_priority on helpcso_interaction.priority_id = helpcso_priority.priority_id
+			WHERE  (interaction_status_id is null or interaction_status_id != 2 or interaction_status_id != 5)
+			and creator_id = 2
+			ORDER BY  `interaction_id` asc
+			LIMIT 0, 10

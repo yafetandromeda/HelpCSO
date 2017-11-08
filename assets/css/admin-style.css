@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.develop {
+	border: 1px solid #bababa;
+}
+#cso-admin-header {
+	padding: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#search_suggestion{
+	margin:0;
+	padding:0;
+	border:0;
+	width:155px;
+	text-align:left;
+	background-color:#FFF;
+	color: #216615;
+}
+
+#search_suggestion li{
+	padding:2px;
+	list-style:none;
+	width:150px;
+	border: 1px solid #000;	
+	cursor:pointer;
+}
+
+#search_suggestion li:hover{
+	background-color:#6BC92B;	
+}
+
+.hovered{
+	background-color:#99CCFF;
+}

@@ -1,0 +1,154 @@
+body{
+    font-family: myfont;
+}
+/*untuk font*/
+@font-face{ 
+    font-family: 'myfont';
+    src: url('../font/euros3_0.eot');
+    src: url('../font/euros3_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/euros3_0.woff') format('woff'),
+         url('../font/euros3_02.ttf') format('truetype'),
+         url('../font/euros3_0.svg#NinaCTTNormal') format('svg');
+}
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+ul#menu a {
+  display: block;
+  text-decoration: none;
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+  color: black;
+  padding: 0.5em;
+}
+ul#menu li ul li a {
+  padding-left: 20px;
+}
+
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0; }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em; }
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }
+
+.main-menu {
+  border-bottom: 2px #000 dotted;
+  padding-left: 2px;
+  font-size: 20px;
+/*  font-weight: bold;*/
+}
+
+.sub-menu {
+  padding-left: 25px;
+  font-size: 20px;
+  margin-bottom: -10px;
+/*  font-weight: bold;*/
+}
+#foto_prof{
+    margin-top : 20px;
+    margin-left: 10px;
+    width: 184px;
+    height: 162px;
+    border: 1px solid #000;
+}
+#user-role{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+#menu-home{
+    background-image: url('../../sms_img/menu_home.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-profile{
+    background-image: url('../../sms_img/menu_profile.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-folder{
+    background-image: url('../../sms_img/menu_folder.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-report{
+    background-image: url('../../sms_img/menu_report.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-setting{
+    background-image: url('../../sms_img/menu_setting.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-profile-user{
+    background-image: url('../../sms_img/menu_profile.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-folder-user{
+    background-image: url('../../sms_img/menu_folder.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#menu-customer-user{
+    background-image: url('../../sms_img/menu_customer.png');
+    background-color: transparent;
+    height:24px;
+    width:136px;
+    border: none;
+    cursor:pointer;
+    margin-left: 15px;
+}
+#service_gammu{
+margin-right: 15px;
+padding-top: 6px;
+}
+
+#menu-logout{
+    background-image: url('../../sms_img/logout.png');
+    background-color: transparent;
+    height:21px;
+    width:24px;
+    border: none;
+    cursor:pointer;
+    margin-right: 15px;
+}
